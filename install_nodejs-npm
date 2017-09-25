@@ -3,8 +3,8 @@ https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=141770
 https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=141770
 sudo apt-get remove npm
 sudo apt-get remove nodejs
-npm -v
-node -v
+npm -v  //5.3.0
+node -v  //v8.5.0
 
  pi@raspberrypi:~ $  node -v
     v0.10.29
