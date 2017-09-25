@@ -22,3 +22,14 @@ node -v
 sudo wget -O - https://raw.githubusercontent.com/audstanley/NodeJs-Raspberry-Pi/master/Install-Node.sh | bash;
 node -v;
 
+3.install HAP-NodeJS
+https://github.com/KhaosT/HAP-NodeJS/wiki/Installing
+-out from root
+sudo apt-get install libavahi-compat-libdnssd-dev
+
+git clone https://github.com/KhaosT/HAP-NodeJS.git
+cd HAP-NodeJS
+***sudo apt-get install libavahi-compat-libdnssd-dev
+npm rebuild
+npm install
+node Core.js
