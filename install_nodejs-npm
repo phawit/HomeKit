@@ -47,6 +47,6 @@ cd /home/pi/HAP-NodeJS
 sudo npm install mqtt --save
 
 5.install sensor
-
+https://www.youtube.com/watch?v=YC4GweMNQ4w&t=12s
 
 
