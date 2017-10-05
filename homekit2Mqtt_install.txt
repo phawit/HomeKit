@@ -35,6 +35,32 @@ hap-nodejs
 yargs
 
 
+sudo npm install mqtt && npm install express && npm install body-parser && npm install express-basic-auth && npm install&& npm install yalm && npm install hap-nodejs && npm install yargs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
