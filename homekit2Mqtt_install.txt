@@ -1,0 +1,53 @@
+https://www.studiopieters.nl/apple-homebridge-homekit-2-mqtt/
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo wget https://nodejs.org/dist/v6.9.2/node-v6.9.2-linux-armv6l.tar.gz
+sudo tar -xvf node-v6.9.2-linux-armv6l.tar.gz
+cd node-v6.9.2-linux-armv6l
+sudo cp -R * /usr/local/
+sudo node –v
+sudo reboot
+
+sudo apt-get install libavahi-compat-libdnssd-dev
+sudo wget http://repo.mosquitto.org/debian/mosquitto-repo.gpg.key
+sudo apt-key add mosquitto-repo.gpg.key
+sudo rm mosquitto-repo.gpg.key
+cd /etc/apt/sources.list.d/
+**For Stretch (latest)
+sudo wget http://repo.mosquitto.org/debian/ mosquitto-stretch.list    
+sudo apt-get update
+sudo apt-get install mosquitto mosquitto-clients
+sudo reboot
+
+
+--------------------INSTALL Homekit2MQTT---------------------------------------------
+
+git clone https://github.com/hobbyquaker/homekit2mqtt.git
+
+sudo npm install
+mqtt
+express
+body-parser
+express-basic-auth
+yalm
+hap-nodejs
+yargs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
