@@ -27,7 +27,7 @@ git clone https://github.com/hobbyquaker/homekit2mqtt.git
 
 cd homekit2mqtt
 sudo su
-npm install mqtt && npm install express && npm install body-parser && npm install express-basic-auth && npm install && npm install yalm && npm install hap-nodejs && npm install yargs
+sudo npm install mqtt && cd ~/homekit2mqtt && sudo npm install express && cd ~/homekit2mqtt && sudo npm install body-parser && cd ~/homekit2mqtt && sudo npm install express-basic-auth && cd ~/homekit2mqtt && sudo npm install && cd ~/homekit2mqtt && sudo npm install yalm && cd ~/homekit2mqtt && sudo npm install hap-nodejs && cd ~/homekit2mqtt && sudo npm install yargs
 
 
 
